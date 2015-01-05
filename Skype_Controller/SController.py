@@ -37,8 +37,6 @@ def get_file():
         filename.close()
     except Exception as e:
         print 'What the fuck? I could not load your file:', gbconfig.FILE_CONTACT
-        # print e
-    # print returndata
     return returndata
 
 
