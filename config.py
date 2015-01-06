@@ -1,0 +1,1 @@
+FILE_CONTACT = "list_contact.txt"
