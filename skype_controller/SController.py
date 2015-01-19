@@ -1,3 +1,4 @@
+"""Import somes important package"""
 import Skype4Py
 import config as gbconfig
 import json
