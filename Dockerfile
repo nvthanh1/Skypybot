@@ -1,7 +1,7 @@
 FROM ubuntu:trusty
  
 #install syslibs needed
-#RUN apt-get update -y
+RUN apt-get update -y
 RUN DEBIAN_FRONTEND=noninteractive apt-get install libssl-dev libffi-dev swig python-dev python-pip curl git sqlite3 libpq-dev -y
  
 # mount the current project workspace under /project inside the container
