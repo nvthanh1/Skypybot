@@ -13,7 +13,7 @@ SKYPE_OBJ.Attach()
 
 # Get all contact from object. This function might not be used in this case
 
-
+def get_file():
     """Function to get file contains list of skype's contact"""
     returndata = {}
     try:
@@ -33,7 +33,7 @@ def main_function():
     """Runable function"""
     get_file()
 
-
+for contact, message in get_file().iteritems():
     SKYPE_OBJ.SendMessage(contact, message)
     print "Message has been sent"
 
