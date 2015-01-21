@@ -33,7 +33,7 @@ def main_function():
     """Runable function"""
     get_file()
 
-for contact, message in get_file().iteritems():
+
     SKYPE_OBJ.SendMessage(contact, message)
     print "Message has been sent"
 
