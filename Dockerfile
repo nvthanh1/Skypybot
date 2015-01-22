@@ -14,7 +14,6 @@ RUN pip install --upgrade pip
 # install pip dependencies!
 RUN pip install -r /project/requirements.txt
 
- 
 WORKDIR /project
 #CMD pip install -r /project/requirements.txt && python setup.py nosetests --with-xunit  --traverse-namespace --with-coverage --cover-package=awfm --cover-html -v test
 CMD pip install -r /project/requirements.txt && pylint --rcfile=standard.rc --output-format=parseable --reports=y skype_controller
