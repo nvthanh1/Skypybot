@@ -13,7 +13,7 @@ SKYPE_OBJ.Attach()
 
 # Get all contact from object. This function might not be used in this case
 
-
+def get_file():
     """Function to get file contains list of skype's contact"""
     returndata = {}
     try:
@@ -29,7 +29,7 @@ SKYPE_OBJ.Attach()
     return returndata
 
 
-
+def main_function():
     """Runable function"""
     get_file()
 
