@@ -37,5 +37,5 @@ for contact, message in get_file().iteritems():
     SKYPE_OBJ.SendMessage(contact, message)
     print "Message has been sent"
 
-ifif __name__ == "__main__":
+if __name__ == "__main__":
     main_function()
