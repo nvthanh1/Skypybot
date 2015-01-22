@@ -29,7 +29,7 @@ def get_file():
     return returndata
 
 
-def main_function():
+
     """Runable function"""
     get_file()
 
