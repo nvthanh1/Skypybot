@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:latest
  
 #install syslibs needed
 RUN apt-get update -y
